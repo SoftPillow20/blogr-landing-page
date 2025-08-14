@@ -1,0 +1,66 @@
+/****************************************/
+/* MAIN NAV */
+/****************************************/
+
+.nav-header {
+  padding: 6.4rem 0 0 0;
+}
+
+.nav-bar {
+  font-size: 2rem;
+  color: hsl(0, 100%, 100%);
+  width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.nav-links--lists {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 4.8rem;
+}
+
+.nav-links--list {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-links--list span {
+  margin-right: 1.2rem;
+}
+
+.logo {
+  margin-right: 4.8rem;
+}
+
+/****************************************/
+/* HERO SECTION */
+/****************************************/
+.section-hero {
+  font-family: var(--font-texts);
+  color: hsl(0, 100%, 100%);
+  width: 100%;
+  background: url(/images/bg-pattern-intro-desktop.svg),
+    linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  background-position: 20% 50%;
+  border-radius: 0 0 0 12.8rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 16rem 0;
+}
+
+.hero-description {
+  font-size: 2rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 6.4rem;
+}
