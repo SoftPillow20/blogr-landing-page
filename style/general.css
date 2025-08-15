@@ -41,6 +41,7 @@ html {
 body {
   font-family: var(--font-texts);
   position: relative;
+  overflow-x: hidden;
 }
 
 .grid {
@@ -80,7 +81,7 @@ body {
   padding: 1.6rem 3.2rem;
   border: none;
   border-radius: 3.6rem;
-  transition: all 0.5s;
+  transition: all 0.25s;
 }
 
 .btn-full:link,
