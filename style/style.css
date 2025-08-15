@@ -100,6 +100,49 @@
   position: absolute;
   right: -72%;
   top: 50%;
-  height: 94rem;
   transform: translate(0%, -50%);
+}
+
+/****************************************/
+/* STATE SECTION */
+/****************************************/
+
+.section-state {
+  margin: 12.8rem 0;
+  padding: 12.8rem;
+  width: 100%;
+  background: url(/images/bg-pattern-circles.svg),
+    linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 31%));
+  background-position: -50% 80%;
+  background-repeat: no-repeat;
+  border-radius: 0 9.6rem 0 9.6rem;
+}
+
+.state {
+  display: grid;
+  grid-template-columns: 40fr 60fr;
+  column-gap: 12.8rem;
+}
+
+.state-header {
+  color: hsl(0, 100%, 100%);
+  margin-bottom: 2.4rem;
+}
+
+.state-description {
+  font-size: 1.6rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 2;
+}
+
+.state-img-box {
+  position: relative;
+}
+
+.state-img {
+  position: absolute;
+  height: 62rem;
+  top: -100%;
+  left: -20%;
+  transform: translate(0, -5%);
 }
