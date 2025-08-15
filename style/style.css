@@ -74,20 +74,20 @@
 }
 
 /****************************************/
-/* INTRO SECTION */
+/* DESIGN SECTION */
 /****************************************/
 
 .section-design {
-  padding: 22.4rem 0;
+  padding: 12.8rem 0;
 }
 
 .container {
-  width: 160rem;
+  width: 120rem;
   margin: 0 auto;
 }
 
 .design-description {
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.6;
   color: hsl(207, 13%, 34%);
 }
@@ -98,7 +98,8 @@
 
 .design-img {
   position: absolute;
-  right: -60%;
-  top: -60%;
-  height: 95rem;
+  right: -72%;
+  top: 50%;
+  height: 94rem;
+  transform: translate(0%, -50%);
 }

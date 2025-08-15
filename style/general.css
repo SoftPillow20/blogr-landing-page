@@ -62,11 +62,11 @@ body {
   font-size: 4.4rem;
   font-weight: 600;
   color: hsl(208, 49%, 24%);
-  margin-bottom: 9.6rem;
+  margin-bottom: 12.8rem;
 }
 
 .tertiary-header {
-  font-size: 3.6rem;
+  font-size: 3rem;
   color: hsl(208, 49%, 24%);
   margin-bottom: 3.2rem;
 }
@@ -131,5 +131,5 @@ body {
 }
 
 .grid-gap-md {
-  grid: 9.6rem;
+  column-gap: 6.4rem;
 }
