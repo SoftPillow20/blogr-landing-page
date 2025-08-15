@@ -35,17 +35,40 @@ btn
 html {
   font-size: calc(10 / 16 * 100%);
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
   font-family: var(--font-texts);
   position: relative;
+  overflow-x: hidden;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .primary-header {
   font-size: 6.2rem;
   font-weight: 600;
   margin-bottom: 1.6rem;
+}
+
+.secondary-header {
+  font-size: 4.4rem;
+  font-weight: 600;
+  color: hsl(208, 49%, 24%);
+  margin-bottom: 12.8rem;
+}
+
+.tertiary-header {
+  font-size: 3rem;
+  color: hsl(208, 49%, 24%);
+  margin-bottom: 3.2rem;
 }
 
 .btn,
@@ -58,7 +81,7 @@ body {
   padding: 1.6rem 3.2rem;
   border: none;
   border-radius: 3.6rem;
-  transition: all 0.5s;
+  transition: all 0.25s;
 }
 
 .btn-full:link,
@@ -97,4 +120,16 @@ body {
 
 .margin-right-sm {
   margin-right: 1.6rem;
+}
+
+.margin-bottom-l {
+  margin-bottom: 9.6rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.grid-gap-md {
+  column-gap: 6.4rem;
 }
