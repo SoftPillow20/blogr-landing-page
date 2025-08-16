@@ -45,6 +45,41 @@
   border-bottom: 2px solid hsl(0, 100%, 100%);
 }
 
+.nav-link-connect {
+  position: relative;
+}
+
+.modal-nav {
+  width: 20rem;
+  background-color: hsl(0, 100%, 100%);
+  padding: 3.2rem 2.4rem;
+  box-shadow: 0 12px 24px 6px hsla(206, 13%, 34%, 0.3);
+  border-radius: 0.6rem;
+  position: absolute;
+  top: 150%;
+  left: -40%;
+
+  display: none;
+}
+
+.modal-nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.modal-nav-link:link,
+.modal-nav-link:visited {
+  color: hsl(240, 10%, 16%);
+  text-decoration: none;
+}
+
+.modal-nav-link:hover,
+.modal-nav-link:active {
+  color: hsl(207, 13%, 34%);
+}
+
 .logo {
   margin-right: 9.6rem;
 }
