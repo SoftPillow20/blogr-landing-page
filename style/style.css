@@ -81,11 +81,6 @@
   padding: 12.8rem 0;
 }
 
-.container {
-  width: 120rem;
-  margin: 0 auto;
-}
-
 .design-description {
   font-size: 1.8rem;
   line-height: 1.6;
@@ -96,9 +91,7 @@
   position: relative;
 }
 
-.design-img {
-  position: absolute;
-  right: -72%;
+.editor-img {
   top: 50%;
   transform: translate(0%, -50%);
 }
@@ -121,6 +114,7 @@
 .state {
   display: grid;
   grid-template-columns: 45fr 55fr;
+  column-gap: 3.2rem;
 }
 
 .state-header {
@@ -141,8 +135,14 @@
 .state-img {
   display: inline-block;
   position: absolute;
-  width: 100%;
-  top: 0;
-  left: -10%;
-  transform: translate(0, -30%);
+  max-width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+
+.laptop-img {
+  left: 0%;
+  top: 50%;
+  transform: translate(-40%, -50%);
 }

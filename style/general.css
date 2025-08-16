@@ -44,6 +44,12 @@ body {
   overflow-x: hidden;
 }
 
+.container {
+  width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
 .grid {
   display: grid;
 }
@@ -69,6 +75,10 @@ body {
   font-size: 3rem;
   color: hsl(208, 49%, 24%);
   margin-bottom: 3.2rem;
+}
+
+.design-img {
+  position: absolute;
 }
 
 .btn,
@@ -123,7 +133,7 @@ body {
 }
 
 .margin-bottom-l {
-  margin-bottom: 9.6rem;
+  margin-bottom: 8rem;
 }
 
 .center-text {
