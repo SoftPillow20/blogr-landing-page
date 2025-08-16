@@ -141,8 +141,6 @@
 
 .state-img {
   position: absolute;
-  height: 62rem;
   top: -100%;
-  left: -20%;
-  transform: translate(0, -5%);
+  left: -10%;
 }
