@@ -9,6 +9,11 @@
     font-size: calc(9 / 16 * 100%);
   }
 
+  .section-hero {
+    background-position: 25% 50%;
+    background-size: 200%;
+  }
+
   .design-img {
     width: 85rem;
   }
