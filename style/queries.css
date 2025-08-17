@@ -14,12 +14,16 @@
     background-size: 200%;
   }
 
+  .nav-bar {
+    padding: 0 6.4rem;
+  }
+
   .design-img {
     width: 85rem;
   }
 
   .container {
-    padding: 0 9.6rem;
+    padding: 0 8rem;
   }
 
   .secondary-header {
@@ -32,7 +36,6 @@
 @media (max-width: 67em) {
   .nav-bar {
     width: 100%;
-    padding: 0 6.4rem;
   }
 
   .primary-header {
@@ -45,6 +48,10 @@
 
   .container {
     padding: 0 6.4rem;
+  }
+
+  .column-gap-md {
+    column-gap: 4.8rem;
   }
 
   .design-description,
