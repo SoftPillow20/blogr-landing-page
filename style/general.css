@@ -80,6 +80,7 @@ body {
 .design-img {
   display: inline-block;
   position: absolute;
+  width: 90rem;
 }
 
 .btn,

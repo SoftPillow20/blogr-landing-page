@@ -1,0 +1,70 @@
+/**************************************/
+/* MEDIA QUERIES */
+/**************************************/
+
+/* LAPTOP LARGE */
+
+@media (max-width: 78em) {
+  html {
+    font-size: calc(9 / 16 * 100%);
+  }
+
+  .design-img {
+    width: 85rem;
+  }
+
+  .container {
+    padding: 0 9.6rem;
+  }
+
+  .secondary-header {
+    font-size: 3.6rem;
+  }
+}
+
+/* LAPTOP MEDIUM */
+
+@media (max-width: 67em) {
+  .nav-bar {
+    width: 100%;
+    padding: 0 6.4rem;
+  }
+
+  .primary-header {
+    font-size: 5.2rem;
+  }
+
+  .design-img {
+    width: 75rem;
+  }
+
+  .container {
+    padding: 0 6.4rem;
+  }
+
+  .design-description,
+  .state-description {
+    font-size: 1.6rem;
+  }
+
+  .tertiary-header {
+    font-size: 2.6rem;
+  }
+
+  .section-state {
+    padding: 8rem;
+  }
+
+  .state {
+    column-gap: 0;
+  }
+
+  .logo {
+    margin-right: 6.4rem;
+  }
+}
+
+/* LAPTOP / TABLET LARGE */
+
+@media (max-width: 60em) {
+}
