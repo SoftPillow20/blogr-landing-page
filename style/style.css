@@ -83,6 +83,10 @@
   color: hsl(207, 13%, 34%);
 }
 
+.menu {
+  display: none;
+}
+
 /****************************************/
 /* HERO SECTION */
 /****************************************/
@@ -122,6 +126,7 @@
 }
 
 .design-img-box {
+  display: block;
   position: relative;
 }
 
@@ -153,6 +158,7 @@
 }
 
 .state {
+  font-family: var(--font-headers);
   display: grid;
   grid-template-columns: 45fr 55fr;
   column-gap: 3.2rem;

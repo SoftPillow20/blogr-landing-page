@@ -80,4 +80,134 @@
 /* LAPTOP / TABLET LARGE */
 
 @media (max-width: 60em) {
+  .section-hero {
+    background: url(/images/bg-pattern-intro-desktop.svg),
+      linear-gradient(to bottom, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    background-position: 50% 40%;
+    background-size: 200%;
+  }
+
+  .hero {
+    padding: 24rem 3.2rem 20rem 3.2rem;
+    height: 70rem;
+  }
+
+  .hero-description {
+    font-family: var(--font-headers);
+  }
+
+  .nav-header {
+    justify-content: space-between;
+  }
+
+  .menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .design-img-box {
+    grid-column: 1/2;
+    grid-row: 1/-2;
+  }
+
+  .design-img {
+    position: relative;
+  }
+
+  .editor-img {
+    width: 60rem;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .laptop-img {
+    width: 70rem;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+  }
+
+  .section-design {
+    padding: 9.6rem 0;
+  }
+
+  .section-state {
+    margin: 22.4rem 0 0 0;
+    padding: 12.8rem 3.2rem;
+    background: url(/images/bg-pattern-circles.svg),
+      linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 31%));
+    background-position: 50% 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .container {
+    padding: 0 3.2rem;
+    row-gap: 3.6rem;
+  }
+
+  .secondary-header {
+    font-weight: 500;
+    margin-bottom: 6.4rem;
+  }
+
+  .tertiary-header {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  .design-description {
+    font-family: var(--font-headers);
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .design-text-box {
+    text-align: center;
+    padding: 0 6.4rem;
+  }
+
+  .state {
+    grid-template-columns: 1fr;
+    gap: 3.6rem;
+  }
+
+  .state-text-box {
+    padding: 0 3.2rem;
+    text-align: center;
+  }
+
+  .state-header {
+    font-size: 3.6rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .state-description {
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+
+  .state-img-box {
+    height: 16rem;
+  }
+
+  .state-img {
+    max-width: 50rem;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .margin-bottom-l {
+    margin-bottom: 4.8rem;
+  }
 }

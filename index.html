@@ -34,6 +34,9 @@
       <a class="img-logo" href="#"
         ><img class="logo" src="images/logo.svg" alt="logo"
       /></a>
+      <div class="menu">
+        <img class="menu-icon" src="images/icon-hamburger.svg" alt="" />
+      </div>
       <nav class="nav-bar">
         <div class="main-nav">
           <ul class="nav-links--lists">
@@ -108,13 +111,19 @@
               you're in full control.
             </p>
           </div>
-          <div class="design-img-box">
+
+          <picture class="design-img-box">
+            <source
+              media="(max-width: 960px)"
+              srcset="images/illustration-editor-mobile.svg"
+            />
             <img
               class="design-img editor-img"
               src="images/illustration-editor-desktop.svg"
               alt="illustration editor desktop version"
+              type="image/webp"
             />
-          </div>
+          </picture>
         </div>
       </section>
 
@@ -145,13 +154,18 @@
       <!-- DESIGN-2 SECTION -->
       <section class="section-design">
         <div class="container grid grid--2-cols grid-gap-md">
-          <div class="design-img-box">
+          <picture class="design-img-box">
+            <source
+              media="(max-width: 960px)"
+              srcset="images/illustration-laptop-mobile.svg"
+            />
             <img
               class="design-img laptop-img"
               src="images/illustration-laptop-desktop.svg"
               alt="illustration editor desktop version"
+              type="image/webp"
             />
-          </div>
+          </picture>
           <div class="design-text-box">
             <h3 class="tertiary-header">Free, open, simple</h3>
             <p class="design-description margin-bottom-l">
