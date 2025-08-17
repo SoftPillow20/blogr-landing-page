@@ -14,8 +14,8 @@
     background-size: 200%;
   }
 
-  .nav-bar {
-    padding: 0 6.4rem;
+  .nav-header {
+    padding: 6.4rem;
   }
 
   .design-img {
@@ -34,6 +34,11 @@
 /* LAPTOP MEDIUM */
 
 @media (max-width: 67em) {
+  .nav-header {
+    padding: 6.4rem;
+    gap: 6.4rem;
+  }
+
   .nav-bar {
     width: 100%;
   }
@@ -69,10 +74,6 @@
 
   .state {
     column-gap: 0;
-  }
-
-  .logo {
-    margin-right: 6.4rem;
   }
 }
 
