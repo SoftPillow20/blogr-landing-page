@@ -360,6 +360,12 @@
     background-repeat: no-repeat;
   }
 
+  .nav-open .nav-bar {
+    max-width: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   .design-text-box {
     padding: 0;
   }
