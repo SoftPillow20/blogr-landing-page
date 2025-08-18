@@ -208,6 +208,67 @@
   }
 
   .margin-bottom-l {
-    margin-bottom: 4.8rem;
+    margin-bottom: 6.4rem;
+  }
+}
+
+/* SMALL TABLETS/ PHONES */
+
+@media (max-width: 44em) {
+  html {
+    font-size: calc(8 / 16 * 100%);
+  }
+
+  .primary-header {
+    font-weight: 400;
+    font-size: 4.4rem;
+  }
+
+  .design-img {
+    width: 100%;
+  }
+
+  .footer-container {
+    font-size: 2rem;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .footer-title {
+    font-size: 2.4rem;
+  }
+
+  .footer-logo {
+    margin-bottom: 3.2rem;
+  }
+
+  .design-text-box {
+    padding: 0 3.2rem;
+  }
+}
+
+/* SMALL PHONES */
+@media (max-width: 30em) {
+  .section-hero {
+    background: url(/images/bg-pattern-intro-desktop.svg),
+      linear-gradient(to bottom, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    background-position: 40% 10%;
+    background-size: 250%;
+  }
+
+  .section-state {
+    background: url(/images/bg-pattern-circles.svg),
+      linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 31%));
+    background-position: 50% -350%;
+    background-size: 150%;
+    background-repeat: no-repeat;
+  }
+
+  .design-text-box {
+    padding: 0;
+  }
+
+  .tertiary-header {
+    padding: 0 3.2rem;
   }
 }
