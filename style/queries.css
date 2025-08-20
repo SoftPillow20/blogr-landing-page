@@ -4,9 +4,26 @@
 
 /* MONITOR LARGE */
 
+@media (min-width: 101em) {
+  .nav-header {
+    width: 160rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .container {
+    width: 160rem;
+  }
+
+  .section-state {
+    width: 160rem;
+    margin: 12.8rem auto;
+  }
+}
+
 /* LAPTOP LARGE */
 
-@media (max-width: 78em) {
+@media (max-width: 87em) {
   html {
     font-size: calc(9 / 16 * 100%);
   }
