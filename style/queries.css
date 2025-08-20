@@ -17,7 +17,7 @@
 
   .section-state {
     width: 160rem;
-    margin: 12.8rem auto;
+    margin: 0 auto;
   }
 }
 
@@ -135,6 +135,14 @@
     pointer-events: none;
   }
 
+  .nav-open .menu-icon {
+    display: none;
+  }
+
+  .nav-open .close-icon {
+    display: block;
+  }
+
   .nav-open .main-nav {
     width: 100%;
     justify-content: center;
@@ -186,7 +194,6 @@
     margin: 2.4rem 0 0;
     background-color: hsla(206, 13%, 34%, 0.1);
     position: static;
-    display: inline-block;
     box-shadow: none;
   }
 
@@ -200,10 +207,6 @@
 
   .nav-open .icon-arrow {
     width: 1.6rem;
-  }
-
-  .margin-right-sm {
-    margin: 0;
   }
 
   .nav-open .btn-login {

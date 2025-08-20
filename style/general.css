@@ -130,6 +130,10 @@ body {
   background-color: hsl(0, 100%, 100%);
 }
 
+.hidden {
+  display: none;
+}
+
 .margin-right-sm {
   margin-right: 1.6rem;
 }

@@ -61,8 +61,6 @@
   position: absolute;
   top: 150%;
   left: -40%;
-
-  display: none;
 }
 
 .modal-nav-links {
@@ -84,6 +82,10 @@
 }
 
 .menu {
+  display: none;
+}
+
+.close-icon {
   display: none;
 }
 
