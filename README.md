@@ -47,13 +47,13 @@ Users should be able to:
 
 I took this challenge because I wanted to build repetition (and be comfortable enough) on writing HTML, CSS and JavaScript. I already learned how to create landing page (in some course tutorials I finished not long ago) with some additional complex components, which is why I wanted to re-create some of it here in this project.
 
-I've also learned how to use git and github. Learning it is one of the best thing that I've done for my programming/development phases.
+I've also learned how to use git and github. Learning it is one of the best thing I've done for my programming/development phases.
 
 ### Continued development
 
 This challenge took me 1 week+ to finish (2 - 4 hours a day) due to some experimentations of ideas and a hard time writing the UI components for this project.
 
-However, this project is not finished yet. I planned to add a login/register component UI in this website, lazy loading images for optimization, and some simple text transition/animation.
+However, this project is not finished yet. I planned to add a login/register component UI, lazy loading images for optimization, and some simple text transition/animation.
 
 Also, I noticed that clicking the tab key (which makes the browser focus on a certain element) does not work on some things in this website, such as the navigation links. So, I'm planning to fix the accessibility of this website pretty soon.
 
