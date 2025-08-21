@@ -129,6 +129,15 @@
   font-size: 2rem;
   color: hsla(0, 0%, 100%, 0.75);
   margin-bottom: 6.4rem;
+
+  transform: translateY(-20%);
+  opacity: 0;
+  transition: transform 1s, opacity 1s;
+}
+
+.hero-description.anim {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 /****************************************/

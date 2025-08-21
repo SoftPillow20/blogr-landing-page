@@ -22,6 +22,8 @@ const navHeaderEl = document.querySelector(".nav-header");
 
 const menuEl = document.querySelector(".menu");
 
+const allLinks = document.querySelectorAll("a:link");
+
 let navLinkConnectTimeout;
 let navLinkCompanyTimeout;
 let navLinkProductTimeout;
@@ -86,7 +88,6 @@ navLinksEl.addEventListener("click", (e) => {
 
 // ANIMATIONS
 //   1. SCROLL VIEW ANIMATION
-const allLinks = document.querySelectorAll("a:link");
 
 allLinks.forEach((link) =>
   link.addEventListener("click", (e) => {
@@ -113,6 +114,20 @@ allLinks.forEach((link) =>
     }
   })
 );
+
+//   2. TEXTS ANIMATION
+
+const primaryHeaderEl = document.querySelector(".primary-header");
+
+const heroDescriptionEl = document.querySelector(".hero-description");
+
+const btnsContainerEl = document.querySelector(".btns-container");
+
+window.addEventListener("load", () => {
+  primaryHeaderEl.classList.add("anim");
+  heroDescriptionEl.classList.add("anim");
+  btnsContainerEl.classList.add("anim");
+});
 
 // LAZY LOADING - OPTIMIZATION
 
