@@ -100,7 +100,7 @@
 
 @media (max-width: 60em) {
   .section-hero {
-    background: url(/images/bg-pattern-intro-desktop.svg),
+    background: url(../images/bg-pattern-intro-desktop.svg),
       linear-gradient(to bottom, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
     background-position: 50% 40%;
     background-size: 200%;
@@ -262,7 +262,7 @@
   .section-state {
     margin: 22.4rem 0 0 0;
     padding: 12.8rem 3.2rem;
-    background: url(/images/bg-pattern-circles.svg),
+    background: url(../images/bg-pattern-circles.svg),
       linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 31%));
     background-position: 50% 100%;
     background-size: 100%;
@@ -369,14 +369,14 @@
 /* SMALL PHONES */
 @media (max-width: 30em) {
   .section-hero {
-    background: url(/images/bg-pattern-intro-desktop.svg),
+    background: url(../images/bg-pattern-intro-desktop.svg),
       linear-gradient(to bottom, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
     background-position: 40% 10%;
     background-size: 250%;
   }
 
   .section-state {
-    background: url(/images/bg-pattern-circles.svg),
+    background: url(../images/bg-pattern-circles.svg),
       linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 31%));
     background-position: 50% -350%;
     background-size: 150%;

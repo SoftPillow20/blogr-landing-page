@@ -180,7 +180,7 @@
   margin: 12.8rem 0;
   padding: 9.6rem;
   width: 100%;
-  background: url(/images/bg-pattern-circles.svg),
+  background: url(../images/bg-pattern-circles.svg),
     linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 31%));
   background-position: -50% 80%;
   background-repeat: no-repeat;
