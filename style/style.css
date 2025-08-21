@@ -61,6 +61,7 @@
   box-shadow: 0 12px 24px 6px hsla(206, 13%, 34%, 0.3);
   border-radius: 0.6rem;
   position: absolute;
+  z-index: 1;
 }
 
 .modal-product {
