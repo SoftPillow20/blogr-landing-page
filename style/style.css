@@ -114,7 +114,7 @@
 .section-hero {
   color: hsl(0, 100%, 100%);
   width: 100%;
-  background: url(/images/bg-pattern-intro-desktop.svg),
+  background: url(../images/bg-pattern-intro-desktop.svg),
     linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
   background-position: 20% 50%;
   border-radius: 0 0 0 12.8rem;
