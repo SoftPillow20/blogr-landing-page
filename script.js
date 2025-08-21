@@ -107,6 +107,10 @@ allLinks.forEach((link) =>
         behavior: "smooth",
       });
     }
+
+    if (navHeaderEl.classList.contains("nav-open")) {
+      navHeaderEl.classList.toggle("nav-open");
+    }
   })
 );
 
