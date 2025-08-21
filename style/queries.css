@@ -171,7 +171,9 @@
     z-index: 1;
   }
 
-  .nav-open .nav-link-connect {
+  .nav-link-connect,
+  .nav-link-company,
+  .nav-link-product {
     width: 100%;
   }
 
@@ -189,7 +191,7 @@
     gap: 2.4rem;
   }
 
-  .nav-open .modal-nav {
+  .modal-nav {
     width: 100%;
     margin: 2.4rem 0 0;
     background-color: hsla(206, 13%, 34%, 0.1);
@@ -211,6 +213,7 @@
 
   .nav-open .btn-login {
     font-size: 2.4rem;
+    margin: 0;
     color: hsl(237, 17%, 21%);
     text-align: center;
   }

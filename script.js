@@ -1,38 +1,82 @@
 "use strict";
 
-// const navLinksEl = document.querySelector(".nav-links--lists");
+const navLinksEl = document.querySelector(".nav-links--lists");
 
 const navLinkConnectEl = document.querySelector(".nav-link-connect");
 
-const modalNavEl = document.querySelector(".modal-nav");
+const navLinkCompanyEl = document.querySelector(".nav-link-company");
 
-const modalNavLinksEl = document.querySelector(".modal-nav-links");
+const navLinkProductEl = document.querySelector(".nav-link-product");
+
+const modalNavEl = document.querySelectorAll(".modal-nav");
+
+const modalConnectEl = document.querySelector(".modal-connect");
+
+const modalCompanyEl = document.querySelector(".modal-company");
+
+const modalProductEl = document.querySelector(".modal-product");
+
+const modalNavLinksEl = document.querySelectorAll(".modal-nav-links");
 
 const navHeaderEl = document.querySelector(".nav-header");
 
 const menuEl = document.querySelector(".menu");
 
 let navLinkConnectTimeout;
+let navLinkCompanyTimeout;
+let navLinkProductTimeout;
 
-navLinkConnectEl.addEventListener("mouseenter", () => {
-  clearTimeout(navLinkConnectTimeout);
-  modalNavEl.classList.remove("hidden");
-});
+function showModalNav(navTimeout, modalEl) {
+  clearTimeout(navTimeout);
+  modalEl.classList.remove("hidden");
+}
 
-navLinkConnectEl.addEventListener("mouseleave", () => {
-  navLinkConnectTimeout = setTimeout(() => {
-    modalNavEl.classList.add("hidden");
+function hideModalNav(modalEl) {
+  return setTimeout(() => {
+    modalEl.classList.add("hidden");
   }, 200);
+}
+
+// NAVIGATION CONNECT
+
+navLinkConnectEl.addEventListener("mouseover", () =>
+  showModalNav(navLinkConnectTimeout, modalConnectEl)
+);
+
+navLinkConnectEl.addEventListener("mouseout", () => {
+  navLinkConnectTimeout = hideModalNav(modalConnectEl);
 });
 
-modalNavLinksEl.addEventListener("click", (e) => {
-  const clicked = e.target.closest(".modal-nav-link");
+// NAVIGATION COMPANY
 
-  if (!clicked) return;
+navLinkCompanyEl.addEventListener("mouseover", () =>
+  showModalNav(navLinkCompanyTimeout, modalCompanyEl)
+);
 
-  modalNavEl.classList.add("hidden");
+navLinkCompanyEl.addEventListener("mouseout", () => {
+  navLinkCompanyTimeout = hideModalNav(modalCompanyEl);
+});
+
+// NAVIGATION PRODUCT
+
+navLinkProductEl.addEventListener("mouseover", () =>
+  showModalNav(navLinkProductTimeout, modalProductEl)
+);
+
+navLinkProductEl.addEventListener("mouseout", () => {
+  navLinkProductTimeout = hideModalNav(modalProductEl);
 });
 
 menuEl.addEventListener("click", () => {
   navHeaderEl.classList.toggle("nav-open");
+});
+
+navLinksEl.addEventListener("click", (e) => {
+  const clicked = e.target.closest(".modal-nav-link");
+
+  if (!clicked) return;
+
+  modalNavEl.forEach((el) => {
+    el.classList.add("hidden");
+  });
 });
