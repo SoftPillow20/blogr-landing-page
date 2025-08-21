@@ -37,7 +37,7 @@ function hideModalNav(modalEl) {
   }, 200);
 }
 
-// NAVIGATION CONNECT
+// RENDER NAVIGATION LINKS CONNECT
 
 navLinkConnectEl.addEventListener("mouseover", () =>
   showModalNav(navLinkConnectTimeout, modalConnectEl)
@@ -47,7 +47,7 @@ navLinkConnectEl.addEventListener("mouseout", () => {
   navLinkConnectTimeout = hideModalNav(modalConnectEl);
 });
 
-// NAVIGATION COMPANY
+// RENDER NAVIGATION LINKS COMPANY
 
 navLinkCompanyEl.addEventListener("mouseover", () =>
   showModalNav(navLinkCompanyTimeout, modalCompanyEl)
@@ -57,7 +57,7 @@ navLinkCompanyEl.addEventListener("mouseout", () => {
   navLinkCompanyTimeout = hideModalNav(modalCompanyEl);
 });
 
-// NAVIGATION PRODUCT
+// RENDER NAVIGATION LINKS PRODUCT
 
 navLinkProductEl.addEventListener("mouseover", () =>
   showModalNav(navLinkProductTimeout, modalProductEl)
@@ -67,10 +67,13 @@ navLinkProductEl.addEventListener("mouseout", () => {
   navLinkProductTimeout = hideModalNav(modalProductEl);
 });
 
+// OPEN/CLOSE MENU
+
 menuEl.addEventListener("click", () => {
   navHeaderEl.classList.toggle("nav-open");
 });
 
+// CLOSE NAVIGATION MODAL LINKS
 navLinksEl.addEventListener("click", (e) => {
   const clicked = e.target.closest(".modal-nav-link");
 
@@ -80,3 +83,33 @@ navLinksEl.addEventListener("click", (e) => {
     el.classList.add("hidden");
   });
 });
+
+// ANIMATIONS
+//   1. SCROLL VIEW ANIMATION
+const allLinks = document.querySelectorAll("a:link");
+
+allLinks.forEach((link) =>
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    const href = link.getAttribute("href");
+
+    // Scroll back to top
+    if (href === "#")
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+
+    // Scroll to selected link
+    if (href !== "#" && href.startsWith("#")) {
+      const sectionEl = document.querySelector(href);
+      sectionEl.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  })
+);
+
+// LAZY LOADING - OPTIMIZATION
+
+// RENDER LOGIN/REGISTER COMPONENT
