@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repository](https://github.com/SoftPillow20/blogr-landing-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Blogr - Landing Page](https://blogr-bern.netlify.app/)
 
 ## My process
 
@@ -58,6 +58,8 @@ However, this project is not finished yet. I planned to add a login/register com
 NOTE: The lazy loading feature is unnecessary so I decided not to include one for the images (the images are 5kb max so there's no point in optimizing them).
 
 Also, I noticed that clicking the tab key (which makes the browser focus on a certain element) does not work on some things in this website, such as the navigation links. So, I'm planning to fix the accessibility of this website pretty soon.
+
+Lastly, I've deployed this project through netlify and enabled the continuous development for its simple CI/CD capability.
 
 ## Author
 
