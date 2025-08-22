@@ -51,6 +51,10 @@ body {
   margin: 0 auto;
 }
 
+.section {
+  transition: transform 1s, opacity 1s;
+}
+
 .grid {
   display: grid;
 }
@@ -147,6 +151,11 @@ body {
 .btn-outline:active {
   color: hsl(353, 100%, 62%);
   background-color: hsl(0, 100%, 100%);
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
 }
 
 .hidden {
