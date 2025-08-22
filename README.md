@@ -59,7 +59,7 @@ NOTE: The lazy loading feature is unnecessary so I decided not to include one fo
 
 Also, I noticed that clicking the tab key (which makes the browser focus on a certain element) does not work on some things in this website, such as the navigation links. So, I'm planning to fix the accessibility of this website pretty soon.
 
-Lastly, I've deployed this project through netlify and enabled the continuous development for its simple CI/CD capability.
+Lastly, I've deployed this project through netlify and enabled the continuous development for simple CI/CD capability.
 
 ## Author
 
